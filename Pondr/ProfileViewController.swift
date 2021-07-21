@@ -8,7 +8,7 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
-    var accountVC = ViewController()
+    var previousVC = ViewController()
     
     @IBOutlet weak var nameLabel: UILabel!
     
@@ -16,7 +16,11 @@ class ProfileViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        nameLabel.text = accountVC.nameTextField.text
+        if let nameField = previousVC.nameTextField {
+            if let name = nameField.text {
+                nameLabel.text = name
+            }
+        }
     }
     
 
