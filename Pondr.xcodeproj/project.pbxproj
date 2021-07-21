@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8B63DC2826A8972400C97BB1 /* PondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B63DC2726A8972400C97BB1 /* PondViewController.swift */; };
 		8B63DC2A26A8974500C97BB1 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B63DC2926A8974500C97BB1 /* ExploreViewController.swift */; };
+		8B63DC2C26A8A8FE00C97BB1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B63DC2B26A8A8FE00C97BB1 /* ProfileViewController.swift */; };
 		CF2B8AF226A7699D00F68530 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2B8AF126A7699D00F68530 /* AppDelegate.swift */; };
 		CF2B8AF426A7699D00F68530 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2B8AF326A7699D00F68530 /* SceneDelegate.swift */; };
 		CF2B8AF626A7699D00F68530 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2B8AF526A7699D00F68530 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		8B63DC2726A8972400C97BB1 /* PondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PondViewController.swift; sourceTree = "<group>"; };
 		8B63DC2926A8974500C97BB1 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		8B63DC2B26A8A8FE00C97BB1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CF2B8AEE26A7699D00F68530 /* Pondr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pondr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2B8AF126A7699D00F68530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF2B8AF326A7699D00F68530 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				CF2B8AFA26A7699D00F68530 /* Pondr.xcdatamodeld */,
 				8B63DC2726A8972400C97BB1 /* PondViewController.swift */,
 				8B63DC2926A8974500C97BB1 /* ExploreViewController.swift */,
+				8B63DC2B26A8A8FE00C97BB1 /* ProfileViewController.swift */,
 			);
 			path = Pondr;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				8B63DC2826A8972400C97BB1 /* PondViewController.swift in Sources */,
 				8B63DC2A26A8974500C97BB1 /* ExploreViewController.swift in Sources */,
 				CF2B8AFC26A7699D00F68530 /* Pondr.xcdatamodeld in Sources */,
+				8B63DC2C26A8A8FE00C97BB1 /* ProfileViewController.swift in Sources */,
 				CF2B8AF226A7699D00F68530 /* AppDelegate.swift in Sources */,
 				CF2B8AF426A7699D00F68530 /* SceneDelegate.swift in Sources */,
 			);
