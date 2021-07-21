@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let profileVC = segue.destination as? ProfileViewController {
+        if let profileVC = segue.destination as? PondViewController {
             profileVC.previousVC = self
         }
     }
